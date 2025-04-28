@@ -1,0 +1,95 @@
+body {
+    background-color: black;    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    overflow-x: hidden;
+
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: rgb(8, 61, 121);
+  }
+
+.logo-image {
+    width: 90px;
+    padding: 13px;
+
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 36px;
+    color: white;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.navegation a{
+
+    margin: 30px;
+    padding: 13px;
+    font-size: 13px;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    border-radius: 25px;
+    background-color: rgb(8, 61, 121);
+    }
+
+.navegation a:hover{
+
+    background-color: rgb(132, 138, 145);
+    transition: all 0.3s ease;
+
+}
+
+.section {
+    display: flex;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+.header h1 {
+        font-family: "Boldonse", system-ui;
+        font-weight: 400;
+        font-style: normal;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-style:normal;
+    justify-content: center;
+    padding: 35px;
+}
+      
